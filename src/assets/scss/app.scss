@@ -1,0 +1,78 @@
+@import 'settings';
+@import 'foundation-emails';
+
+a,
+a:visited,
+a:hover {
+    color: #057db8;
+}
+
+p.intro {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+p.fine-print {
+    font-size: 12px;
+    text-align: center;
+}
+
+p.fine-print a {
+    text-decoration: underline;
+}
+
+img.product-logo {
+    max-width: 180px;
+}
+
+// social media table
+
+th.columns table.social-media {
+    width: 350px;
+}
+
+table.social-media td {
+    text-align: center;
+}
+
+table.social-media td.sm-icons img {
+    display: inline;
+}
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+td {
+    hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+}
+
+.show-column {
+    background: #e5e5e5;
+}
+
+table.button table td a {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table.button table td {
+    text-align: center !important;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+
+@media only screen and (max-width: 616px) {
+    // media queries for mobile
+}
